@@ -1,0 +1,31 @@
+ytd-masthead[darker-dark-theme] {
+  background: transparent !important;
+}
+
+ytd-page-manager {
+  overflow: visible !important;
+}
+
+#search-icon-legacy.ytd-searchbox {
+  background: #222222 !important;
+}
+
+.html5-video-player {
+  overflow: hidden !important;
+  border-radius: 12px !important;
+  transition: ease 450ms !important;
+  box-shadow: #000000eb 0 0 24px !important;
+}
+
+.html5-video-player:hover {
+  border-radius: 4px !important;
+  transition: ease 450ms !important;
+}
+
+.html5-video-player.ytp-fullscreen {
+  border-radius: 0px !important;
+}
+
+.html5-video-player.ytp-fullscreen:hover {
+  border-radius: 0px !important;
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Enhanced For You",
+  "description": "A simple extension that enhances YouTube dark theme just for you.",
+  "icons": {
+    "128": "128x128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["contentScript.bundle.js"],
+      "css": ["content.styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["content.styles.css", "128x128.png", "32x32.png"],
+      "matches": []
+    }
+  ]
+}
