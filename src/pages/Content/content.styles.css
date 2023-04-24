@@ -1,4 +1,5 @@
-ytd-masthead[darker-dark-theme] {
+ytd-masthead[darker-dark-theme],
+#background.ytd-masthead {
   background: transparent !important;
 }
 
